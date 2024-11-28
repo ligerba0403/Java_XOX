@@ -24,6 +24,12 @@ public void printBoard() {
      }
 }
 
+public boolean isValidMove() {
+	return false;
+}
+
+
+
 
 
 
