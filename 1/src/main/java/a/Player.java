@@ -11,7 +11,5 @@ public void setSymbol(char symbol) {
 	this.symbol = symbol;
 }
  
-public void makeMove(Board board) {
-	
-}
+
 }
