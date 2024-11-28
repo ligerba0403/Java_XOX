@@ -24,10 +24,21 @@ public void printBoard() {
      }
 }
 
-public boolean isValidMove() {
+public void makeMove(int x,int y, char symbol) {
+	board[x][y] = symbol;
+}
+
+public boolean isValidMove(int x , int y) {
+	return board[x][y] == ' ' && x < 4 && y <4;
+}
+
+public boolean isWin() {
 	return false;
 }
 
+public boolean isFull() {
+	return false;
+}
 
 
 
